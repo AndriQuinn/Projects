@@ -171,3 +171,146 @@ nav ul li:nth-child(5) {
 #content-button button:nth-child(1) a {
   color: black;
 }
+
+@media only screen and (min-width: 500px) {
+  #NikkeBg img {
+    left: -300px;
+    top: -10px;
+  }
+
+  #content-button {
+    margin-top: 8rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #content {
+    margin: 0 10rem;
+  }
+
+  #NikkeBg img {
+    left: -400px;
+    top: -10px;
+  }
+
+  #content-button {
+    margin-top: 8 rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #NikkeBg img {
+    left: -200px;
+    top: -10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #NikkeBg img {
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    top: -4px;
+    left: -9rem;
+    transform: scale(0.99);
+  }
+
+  #menuCont, #topMenu {
+    display: none;
+  }
+
+  header {
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  nav {
+    width: auto;
+    background: none;
+    color: white;
+    height: auto;
+    position: static;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+  nav ul li {
+   border: none;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+}
+
+  nav ul li a {
+    color: white;
+    padding: auto;
+}
+
+  nav ul li:nth-child(5) {
+    display: inline-block;
+    margin: 0 0.5rem; 
+  }
+
+  nav ul li:nth-child(5) button {
+    background: white;
+    border: none;
+    padding: 10px 1rem;
+  }
+
+  nav ul li:nth-child(5) button a {
+    color: black;
+  }
+
+  #content {
+    margin: 0;
+  }
+
+  #headline {
+    justify-content: left;
+    margin-left: 5rem;
+  }
+
+  #headline img {
+    height: 100px;
+  }
+
+  #headline h1 {
+    font-size: 4rem;
+  }
+
+  #memo {
+    display: flex;
+    justify-content: left;  
+    padding: 1rem;
+    width: 500px;
+    margin-left: 5rem;
+  }
+
+  #memo p {
+    display: inline-block;
+    text-align: justify;
+  }
+
+  #content-button {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row; wrap;
+    padding: 0 3rem;
+    margin-top: 5rem;
+  }
+}
