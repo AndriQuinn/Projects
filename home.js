@@ -1,6 +1,7 @@
 console.log("Adnrie Quinatac-an");
 console.log("5 / 24 / 2024");
 console.log("5月 24日 24年");
+console.log("WorkTime: 5 Hours");
 console.log("Eccomerce Web App");
 console.log("Bat ang pogi ko?");
 console.log("Single po ako lmao");
