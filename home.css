@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: var(--black);
+}
+
+:root {
+    --dark-blue: #001643;
+    --red: #DB0000;
+    --orange: #D32A00;
+    --black: #1f1f1f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo a img {
+    vertical-align: middle;
+    margin-right: -8px;
+}
+.logo a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.side-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.banner {
+    height: 10rem;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("./Assets/marin_banner.webp");
+    background-size: cover;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.tag {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: var(--red);
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 0.3rem 0.8rem;
+}
+
+.section-header {
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white;
+    margin: 1rem 0;
+}
+
+.latest-items {
+    margin: 1rem 0.5rem;
+    max-width: 100%;
+    height: 12rem;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -4rem 0;
+    box-shadow: 0 -2rem 8px rgba(31,31,31,0.9) inset;
+}
+
+.latest-items:nth-child(2) {
+    background-image: url("./Assets/marin_banner.webp");
+}
+
+.latest-items:nth-child(3) {
+    background-image: url("./Assets/cheshire_banner.webp");
+}
+
+.tags-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+}
+
+.latest-tags {
+    padding: 0.3rem 0.8rem;
+    color: white;
+    margin: 5px 5px;
+    font-size: 8px;
+}
+
+.latest-tags:nth-child(1) {
+    background-color: var(--red);
+}
+
+.latest-tags:nth-child(2) {
+    background-color: var(--orange);
+}
+
+.latest-items a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    color: white;    
+}
+
+.banner-info {
+    margin: 0.5rem 1rem;
+}
+
+.latest-items a h2 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-right: 0.5rem;
+}
+
+.latest-items a span {
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    padding: 0.2rem;
+}
+
+.products {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+        "aa ab"
+        "ba bb"
+        "ca cb";
+    padding: 1rem;
+}
+
+.product-card {
+    height: 12rem;
+    width: 8rem;
+    position: relative;
+    border: 1px solid white;
+}
+
+.cover {
+    box-shadow: 0 -3rem 10px rgba(31,31,31,0.9) inset;
+}
+
+.product-card:nth-child(1) {
+    background-image: url("./Assets/st.louis.webp");
+    background-size: cover;
+    grid-area: aa;
+}
+
+.product-card:nth-child(2) {
+    background-image: url("./Assets/albedo.webp");
+    background-size: cover;
+    background-position: -2rem 0;
+    grid-area: ab;
+}
+
+.product-card:nth-child(3) {
+    background-image: url("./Assets/kano_ebisugawa.webp");
+    background-size: cover;
+    grid-area: ba;
+}
+
+.product-card:nth-child(4) {
+    background-image: url("./Assets/vladilena_milize.webp");
+    background-size: cover;
+    grid-area: bb;
+}
+
+.product-card:nth-child(5) {
+    background-image: url("./Assets/ijn_taihou.webp");
+    background-size: cover;
+    background-position: -2rem 0;
+    grid-area: ca;
+}
+
+.card-tags {
+    font-size: 6px;
+    padding: 0.3rem 0.5rem;
+    color: white;
+    margin: 3px 3px;
+}
+
+.hot {
+    background-color: var(--orange);
+}
+
+.r18 {
+    background-color: var(--red);
+}
+
+.product-card a {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+
+.info {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.rating {
+    padding: 0.1rem 0.2rem;
+    font-size: 10px;
+    background-color: white;
+    /* margin-left: 0.5rem; */
+    color: var(--black);
+}
