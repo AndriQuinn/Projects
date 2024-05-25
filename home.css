@@ -286,3 +286,95 @@ header {
 .right a img {
     margin-right: 2px ;
 }
+
+@media only screen and (min-width: 500px) {
+    .banner {
+        height: 18rem;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .section-header {
+        margin: 2rem;
+    }
+    .banner {
+        height: 22rem;
+    }
+
+    .latest-items {
+        height: 18rem;
+        margin: 2rem 1.5rem;
+    }
+
+    .products {
+        padding: 2rem;
+        grid-template-areas: 
+            "aa ab ac"
+            "ba bb bc"
+            "ca cb cc";
+    }
+
+    .product-card:nth-child(1) {
+        grid-area: aa;
+    }
+
+    .product-card:nth-child(2) {
+        grid-area: ab;
+    }
+
+    .product-card:nth-child(3) {
+        grid-area: ac;
+    }
+
+    .product-card:nth-child(4) {
+        grid-area: ba;
+    }
+
+    .product-card:nth-child(5) {
+        grid-area: bb;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+    .left {
+        margin-right: 40%;
+    }
+}
+    
+@media only screen and (min-width: 900px) {
+    .latest-items {
+        margin: 2rem 4rem;
+    }
+
+    .products {
+        padding: 2rem 4rem;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .header {
+        padding: 2rem 3.5rem;
+    }
+
+    .banner {
+        height: 32rem;
+    }
+
+    .latest-items {
+        height: 26rem;
+    }
+
+    .products {
+        padding: 2rem 6rem;
+    }
+
+    .product-card {
+        margin: 1rem 0;
+    }
+
+    .left {
+        margin-right: 32%;
+    }
+}
