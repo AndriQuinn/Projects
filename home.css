@@ -208,6 +208,49 @@ header {
     grid-area: ca;
 }
 
+.product-card:nth-child(6) {
+    background-image: url("./Assets/scarlet.webp");
+    background-size: cover;
+    background-position: -1rem 0;
+    grid-area: cb;
+}
+
+.product-card:nth-child(7) {
+    background-image: url("./Assets/tokisaki_kurumi.webp");
+    background-size: cover;
+    background-position: -2rem 0;
+    grid-area: da;
+}
+
+.product-card:nth-child(8) {
+    background-image: url("./Assets/tohka_yatogami.webp");
+    background-size: cover;
+    /* background-position: -1rem 0; */
+    grid-area: db;
+}
+
+
+.product-card:nth-child(9) {
+    background-image: url("./Assets/power.webp");
+    background-size: cover;
+    background-position: -2rem 0;
+    grid-area: ea;
+}
+
+.product-card:nth-child(10) {
+    background-image: url("./Assets/ayanami_rei.webp");
+    background-size: cover;
+    background-position: -1rem 0;
+    grid-area: eb;
+}
+
+.product-card:nth-child(11) {
+    background-image: url("./Assets/rapi.webp");
+    background-size: cover;
+    background-position: -2rem 0;
+    grid-area: fa;
+}
+
 .card-tags {
     font-size: 6px;
     padding: 0.3rem 0.5rem;
@@ -314,7 +357,10 @@ header {
         grid-template-areas: 
             "aa ab ac"
             "ba bb bc"
-            "ca cb cc";
+            "ca cb cc"
+            "da db dc"
+            "ea eb ec"
+            "fa fb fc";
     }
 
     .product-card {
@@ -340,6 +386,30 @@ header {
 
     .product-card:nth-child(5) {
         grid-area: bb;
+    }
+
+    .product-card:nth-child(6) {
+        grid-area: bc;
+    }
+
+    .product-card:nth-child(7) {
+        grid-area: ca;
+    }
+
+    .product-card:nth-child(8) {
+        grid-area: cb;
+    }
+
+    .product-card:nth-child(9) {
+        grid-area: cc;
+    }
+
+    .product-card:nth-child(10) {
+        grid-area: da;
+    }
+
+    .product-card:nth-child(11) {
+        grid-area: db;
     }
 
     .footer {
