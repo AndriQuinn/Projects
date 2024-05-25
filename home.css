@@ -170,7 +170,6 @@ header {
     height: 12rem;
     width: 8rem;
     position: relative;
-    border: 1px solid white;
 }
 
 .cover {
@@ -294,6 +293,10 @@ header {
 }
 
 @media only screen and (min-width: 720px) {
+    .side-menu {
+        gap: 2rem;
+    }
+    
     .section-header {
         margin: 2rem;
     }
@@ -312,6 +315,11 @@ header {
             "aa ab ac"
             "ba bb bc"
             "ca cb cc";
+    }
+
+    .product-card {
+        height: 15rem;
+        width: 11rem;
     }
 
     .product-card:nth-child(1) {
@@ -350,6 +358,10 @@ header {
 
     .products {
         padding: 2rem 4rem;
+    }
+
+    .card-tags {
+        font-size: 10px;
     }
 }
 
