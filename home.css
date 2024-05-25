@@ -96,7 +96,7 @@ header {
 }
 
 .latest-items:nth-child(2) {
-    background-image: url("./Assets/marin_banner.webp");
+    background-image: url("Anima/Assets/marin_banner.webp");
 }
 
 .latest-items:nth-child(3) {
