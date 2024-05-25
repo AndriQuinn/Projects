@@ -51,11 +51,12 @@ header {
 }
 
 .banner {
-    height: 10rem;
+    height: 12rem;
     width: 100%;
     overflow: hidden;
     background-image: url("./Assets/marin_banner.webp");
     background-size: cover;
+    background-position-x: 45%;
     position: relative;
     transition: all 0.3s;
     cursor: pointer;
