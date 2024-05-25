@@ -96,7 +96,7 @@ header {
 }
 
 .latest-items:nth-child(2) {
-    background-image: url("Anima/Assets/marin_banner.webp");
+    background-image: url("./Assets/marin_banner.webp");
 }
 
 .latest-items:nth-child(3) {
@@ -258,6 +258,7 @@ header {
 
 .left {
     padding: 10px;
+    margin-left: 5%;
 }
 
 .left h1, .right h1 {
