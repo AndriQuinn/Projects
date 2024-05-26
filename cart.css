@@ -71,6 +71,14 @@ header {
     border-bottom: 1px solid white;
 }
 
+li {
+    transition: all 0.3s;
+}
+
+li:hover {
+    background-color: var(--gray);
+}
+
 .a {
     display: flex;
     width: 100%;
