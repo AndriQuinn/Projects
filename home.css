@@ -20,6 +20,7 @@ body {
     --orange: #D32A00;
     --black: #1f1f1f;
     --pink: #F05E85;
+    --blue: #0066FF;
 }
 
 header {
@@ -102,7 +103,6 @@ header {
                 0 2rem 8px rgba(31,31,31,0.9) inset,
                 2rem 0 8px rgba(31,31,31,0.9) inset,
                 -2rem 0 8px rgba(31,31,31,0.9) inset;
-    scale: 1.1;
     border: 1px solid white;
 }
 
@@ -271,7 +271,9 @@ header {
 .cute {
     background-color: var(--pink);
 }
-
+.new {
+    background-color: var(--blue);
+}
 .product-card a {
     display: flex;
     align-items: flex-end;
@@ -356,6 +358,10 @@ header {
     .latest-items {
         height: 18rem;
         margin: 2rem 1.5rem;
+    }
+
+    .latest-items:hover {
+        scale: 1.1;
     }
 
     .products {
