@@ -170,7 +170,7 @@ header {
 .products {
     display: grid;
     grid-gap: 1rem;
-    grid-template-areas: auto auto;
+    grid-template-columns: auto auto;
     padding: 1rem;
 }
 
