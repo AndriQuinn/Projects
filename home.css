@@ -19,6 +19,7 @@ body {
     --red: #DB0000;
     --orange: #D32A00;
     --black: #1f1f1f;
+    --pink: #F05E85;
 }
 
 header {
@@ -263,6 +264,10 @@ header {
 
 .r18 {
     background-color: var(--red);
+}
+
+.cute {
+    background-color: var(--pink);
 }
 
 .product-card a {
