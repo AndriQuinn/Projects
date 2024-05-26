@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     background: transparent;
-    border: none
     font-family: sans-serif;
     list-style: none;
     text-decoration: none;
@@ -361,7 +360,7 @@ header {
     }
 
     .latest-items:hover {
-        scale: 1.1;
+        scale: 1.05;
     }
 
     .products {
