@@ -94,6 +94,7 @@ header {
     background-repeat: no-repeat;
     background-position: 40%;
     box-shadow: 0 -2rem 8px rgba(31,31,31,0.9) inset;
+    transition: all 0.3s;
 }
 
 .latest-items:hover {
@@ -177,10 +178,11 @@ header {
     height: 12rem;
     width: 8rem;
     position: relative;
+    transition: all 0.3s;
 }
 
 .product-card:hover {
-    scale: 1.1;
+    scale: 1.05;
     border: 1px solid white;
 }
 
