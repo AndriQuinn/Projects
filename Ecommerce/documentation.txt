@@ -9,7 +9,7 @@ Projects --
 
 Ecommerce / Anima
   Date Created : ‎May ‎24, ‎2024
-  Last Modified: May 27, 2024
+  Last Modified : May 27, 2024
   Languages:
     HTML (Hypertext Markup Language)
     CSS  (Cascading Styleshee)
