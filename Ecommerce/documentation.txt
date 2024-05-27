@@ -1,1 +1,16 @@
+Ecommerce ---
 
+This folder contains login works in which uses multiple language for both backend and frontend and soon backend
+This folder is for practicing only and for merely educational purposes
+All pictures were used here are only for educational purposes only and has no intention to violate any rights of the original owner of the said picture
+This is use to showcase multiple works Ive done
+
+Projects --
+
+Ecommerce / Anima
+  Date Created : ‎May ‎24, ‎2024
+  Last Modified: May 27, 2024
+  Languages:
+    HTML (Hypertext Markup Language)
+    CSS  (Cascading Styleshee)
+    JS  (Javascript)
