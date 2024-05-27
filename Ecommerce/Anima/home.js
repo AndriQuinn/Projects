@@ -20,10 +20,11 @@ setInterval(() => {
 
     // console.log(pos);1
     // console.log(banners[pos])
-
+    banner.style.transition = "all 0.3s";
     banner.style.backgroundImage = "url("+banners[pos]+")";
     pos += 1;
     if (pos > 3) {
         pos = 1;
     }
-}, 2000)
+    
+}, 1700)
