@@ -53,12 +53,16 @@ header {
     gap: 10px;
 }
 
-.side-menu li a{
-    display: inline-block;
+.side-menu li {
+    transition: all 0.3s;
+}
+
+.side-menu li a {
+    display: block;
 }
 
 .side-menu li:hover {
-    scale: 1.05;
+    scale: 1.5;
 }
 
 .banner {
