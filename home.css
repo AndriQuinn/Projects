@@ -53,6 +53,10 @@ header {
     gap: 10px;
 }
 
+.side-menu:hover {
+    scale: 1.05;
+}
+
 .banner {
     height: 12rem;
     width: 100%;
@@ -270,9 +274,11 @@ header {
 .cute {
     background-color: var(--pink);
 }
+
 .new {
     background-color: var(--blue);
 }
+
 .product-card a {
     display: flex;
     align-items: flex-end;
@@ -292,7 +298,6 @@ header {
     padding: 0.1rem 0.2rem;
     font-size: 10px;
     background-color: white;
-    /* margin-left: 0.5rem; */
     color: var(--black);
 }
 
@@ -383,6 +388,14 @@ header {
 }
     
 @media only screen and (min-width: 900px) {
+    .left h1, .right h1 {
+       font-size: 1rem; 
+    }
+
+    .right a, .left {
+        font-size: 14px;
+    }
+    
     .latest-items {
         margin: 2rem 4rem;
     }
