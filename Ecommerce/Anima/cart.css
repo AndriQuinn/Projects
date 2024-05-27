@@ -49,6 +49,10 @@ header {
     gap: 10px;
 }
 
+.side-menu li {
+    transition: all 0.3s;
+}
+
 .side-menu li:hover {
     scale: 1.5;
 }
