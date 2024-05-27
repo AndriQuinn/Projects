@@ -1,1 +1,18 @@
-Logins
+Logins ---
+
+This folder contains login works in which uses multiple language for both backend and frontend such as PHP and MySQL
+This folder is for practicing only and for merely educational purposes
+This is use to demonstrate multiple works Ive done;
+
+
+Projects --
+
+Logins / Japan
+  Date : April ‎28, ‎2024
+  Languages:
+    HTML (Hypertext Markup Language)
+    CSS  (Cascading Styleshee)
+    JS  (Javascript)
+    PHP  (PHP Object Processing)
+    MySQL
+
