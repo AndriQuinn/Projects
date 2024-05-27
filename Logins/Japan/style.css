@@ -26,7 +26,7 @@ body {
 
 .banner {
     height: 100%;
-    background: url("jp_bg.webp");
+    background: url("./Assets/jp_bg.webp");
     background-size: cover;
     background-position-x: -10rem;
     background-position-y: -15rem;
