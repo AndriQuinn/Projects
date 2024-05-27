@@ -53,7 +53,7 @@ header {
     gap: 10px;
 }
 
-.side-menu:hover {
+.side-menu li a:hover {
     scale: 1.05;
 }
 
