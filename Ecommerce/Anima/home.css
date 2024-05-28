@@ -442,3 +442,18 @@ header {
         margin-right: 32%;
     }
 }
+
+@media only screen and (min-width:1700px) {
+    .banner {
+        height: 48rem;
+    }
+
+    .latest-item {
+        height: 38rem;
+    }
+
+    .products {
+        padding: 2rem;
+        grid-template-columns: auto auto auto auto;
+    }
+}
