@@ -20,6 +20,7 @@ body {
     --orange: #D32A00;
     --black: #1f1f1f;
     --pink: #F05E85;
+    --blue: #0066FF;
 }
 
 header {
@@ -270,12 +271,16 @@ header {
     background-color: var(--orange);
 }
 
-.r18, .new {
+.r18 {
     background-color: var(--red);
 }
 
 .cute {
     background-color: var(--pink);
+}
+
+.new {
+    background-color: var(--blue);
 }
 
 .product-card a {
