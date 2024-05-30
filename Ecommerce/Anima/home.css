@@ -229,7 +229,6 @@ header {
 .product-card:nth-child(6) {
     background-image: url("./Assets/scarlet.webp");
     background-size: cover;
-    background-position: -1rem 0;
 }
 
 .product-card:nth-child(7) {
