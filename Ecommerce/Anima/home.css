@@ -111,7 +111,7 @@ header {
                 0 2rem 8px rgba(31,31,31,0.9) inset,
                 2rem 0 8px rgba(31,31,31,0.9) inset,
                 -2rem 0 8px rgba(31,31,31,0.9) inset;
-    scale: 1.05;
+    scale: 1.03;
     border: 1px solid white;
 }
 
@@ -181,6 +181,7 @@ header {
     grid-gap: 1rem;
     grid-template-columns: auto auto; 
     padding: 1rem;
+    justify-content: space-around;
 }
 
 .product-card {
