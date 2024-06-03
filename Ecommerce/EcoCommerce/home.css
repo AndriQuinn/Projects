@@ -201,68 +201,68 @@ header {
 }
 
 .product-card:nth-child(1) {
-    background-image: url("./NewAssets/rtx4090.jpg");
+    background-image: url("./Assets/rtx4090.jpg");
     background-size: cover;
     background-position: -7rem 0;
 }
 
 .product-card:nth-child(2) {
-    background-image: url("./NewAssets/rtx4080.jpg");
+    background-image: url("./Assets/rtx4080.jpg");
     background-size: cover;
     background-position: -7rem 0;
 }
 
 .product-card:nth-child(3) {
-    background-image: url("./NewAssets/anime_keyboard_1.jpg");
+    background-image: url("./Assets/anime_keyboard_1.jpg");
     background-size: cover;
     background-position: -4rem 0;
     font-size: 8px;
 }
 
 .product-card:nth-child(4) {
-    background-image: url("./NewAssets/anime_keyboard_2.jpg");
+    background-image: url("./Assets/anime_keyboard_2.jpg");
     background-size: cover;
     background-position: -2rem 0;
 }
 
 .product-card:nth-child(5) {
-    background-image: url("./NewAssets/intel_core_9.jpg");
+    background-image: url("./Assets/intel_core_9.jpg");
     background-size: cover;
     background-position: -7rem 0;
 }
 
 .product-card:nth-child(6) {
-    background-image: url("./NewAssets/intel_core_7.jpg");
+    background-image: url("./Assets/intel_core_7.jpg");
     background-size: cover;
     background-position: -1rem 0;
 }
 
 .product-card:nth-child(7) {
-    background-image: url("./NewAssets/motherboard.jpg");
+    background-image: url("./Assets/motherboard.jpg");
     background-size: cover;
     background-position: -7.5rem 0;
 }
 
 .product-card:nth-child(8) {
-    background-image: url("./NewAssets/razer_mouse.webp");
+    background-image: url("./Assets/razer_mouse.webp");
     background-size: cover;
     background-position: -9rem 0;
 }
 
 
 .product-card:nth-child(9) {
-    background-image: url("./NewAssets/ram_1.jpg");
+    background-image: url("./Assets/ram_1.jpg");
     background-position: -7rem 0;
     background-size: cover;
 }
 
 .product-card:nth-child(10) {
-    background-image: url("./NewAssets/anime_keyboard_2.jpg");
+    background-image: url("./Assets/anime_keyboard_2.jpg");
     background-size: cover;
 }
 
 .product-card:nth-child(11) {
-    background-image: url("./NewAssets/anime_keyboard_1.jpg");
+    background-image: url("./Assets/anime_keyboard_1.jpg");
     background-size: cover;
 }
 
