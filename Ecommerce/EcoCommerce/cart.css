@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: var(--black);
+}
+
+:root {
+    --dark-blue: #001643;
+    --red: #DB0000;
+    --orange: #D32A00;
+    --black: #1f1f1f;
+    --gray: #CFD2D7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.side-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.section-header {
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white;
+    margin: 1rem 0;
+}
+
+.side-menu li {
+    transition: all 0.3s;
+}
+
+.side-menu li:hover {
+    scale: 1.5;
+}
+
+#holder {
+    color: var(--gray);
+    text-align: center;
+    margin: 5rem 0;
+    display: none;
+}
+
+.list-item {
+    margin: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+}
+
+.a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    gap: 5px;
+}
+
+.items img {
+    height: 5rem;
+}
+
+
+.info {
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 5px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    padding: 8px;
+}
+
+.price {
+    display: inline-block;
+    background-color: white;
+    color: var(--black);
+    padding: 2px;
+    margin: 8px 0;
+    font-weight: 900;
+    /* font-size: 12px; */
+}
+
+.options {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: auto;
+    align-content: flex-end;
+}
+
+#buy {
+    color: var(--black);
+    font-size: 12px;
+    background-color: white;
+    padding: 8px;
+}
+
+#remove {
+    color: white;
+    font-size: 12px;
+    background-color: var(--orange);
+    padding: 8px 1rem;
+}
+
+@media only screen and (min-width: 720px) {
+    .side-menu {
+        gap: 2rem;
+    }
+    .section-header {
+        margin: 2rem;
+    }
+
+    .cart-items {
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .header {
+        padding: 2rem 3.5rem;
+    }
+}
