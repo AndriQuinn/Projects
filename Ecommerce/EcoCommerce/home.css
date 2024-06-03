@@ -244,14 +244,15 @@ header {
 }
 
 .product-card:nth-child(8) {
-    background-image: url("./NewAssets/motherboard.jpg");
+    background-image: url("./NewAssets/razer_mouse.webp");
     background-size: cover;
+    background-position: -9rem 0;
 }
 
 
 .product-card:nth-child(9) {
-    background-image: url("./NewAssets/motherboard.jpg");
-    background-position: -2rem 0;
+    background-image: url("./NewAssets/ram_1.jpg");
+    background-position: -7rem 0;
     background-size: cover;
 }
 
