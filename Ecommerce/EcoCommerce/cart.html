@@ -1,0 +1,48 @@
+<!-- Andrie Quinatac-an -->
+<!-- 5 / 24 / 2024 -->
+<!-- 5月 24日 24年 -->
+<!-- Ecommerce -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tekunoroji </title>
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <link rel="icon" href="./Assets/logo.svg">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href=""> TEKUNOROJI </a>
+        </div>
+        <div>
+            <ul class="side-menu">
+                <li><a href=""> <img src="./Assets/user.svg" alt="profile" height="20px"/> </a></li>
+                <li><a href="index.html"> <img src="./Assets/home.svg" alt="home" height="20px"/></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content">
+        <h1 class="section-header"> Cart </h1>
+        <ul id="cart-items">
+            <li class="list-item"> 
+                <a href="" class="items a">
+                    <img src="./Assets/ijn_taihou.webp"/>
+                    <div class="info">
+                        <h2> IJN Taihou </h2>
+                        <span class="price"> 16,000円 </span>
+                    </div>
+                    <div class="options">
+                        <button id="buy"> BUY </button>
+                        <button id="remove" onclick="item(this,event)"> REMOVE</button>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <p id="holder"> The cart is empty. </p>   
+    </div>
+    <script src="cart.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,488 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: var(--black);
+}
+
+:root {
+    --dark-blue: #001643;
+    --red: #DB0000;
+    --orange: #D32A00;
+    --black: #1f1f1f;
+    --pink: #F05E85;
+    --blue: #0066FF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.side-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.side-menu li {
+    transition: all 0.3s;
+}
+
+.side-menu li a {
+    display: block;
+}
+
+.side-menu li:hover {
+    scale: 1.5;
+}
+
+.banner {
+    height: 12rem;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("./NewAssets/rtx4090.jpg");
+    background-size: cover;
+    background-position-x: 40%;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.tag {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: var(--red);
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 0.3rem 0.8rem;
+}
+
+.section-header {
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white;
+    margin: 1rem 0;
+}
+
+.latest-items {
+    margin: 1rem 0.5rem;
+    max-width: 100%;
+    height: 12rem;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    box-shadow: 0 -2rem 8px rgba(31,31,31,0.9) inset;
+    transition: all 0.3s;
+}
+
+.latest-items:hover {
+    box-shadow: 0 -2rem 8px rgba(31,31,31,0.9) inset,
+                0 2rem 8px rgba(31,31,31,0.9) inset,
+                2rem 0 8px rgba(31,31,31,0.9) inset,
+                -2rem 0 8px rgba(31,31,31,0.9) inset;
+    scale: 1.03;
+    border: 1px solid white;
+}
+
+.latest-items:nth-child(2) {
+    background-image: url("./NewAssets/rtx4090.jpg");
+}
+
+.latest-items:nth-child(3) {
+    background-image: url("./NewAssets/rtx4080.jpg");
+}
+
+.tags-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+}
+
+.latest-tags {
+    padding: 0.3rem 0.8rem;
+    color: white;
+    margin: 5px 5px;
+    font-size: 8px;
+}
+
+.latest-tags:nth-child(1) {
+    background-color: var(--red);
+}
+
+.latest-tags:nth-child(2) {
+    background-color: var(--orange);
+}
+
+.latest-items a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    color: white;    
+}
+
+.banner-info {
+    margin: 0.5rem 1rem;
+}
+
+.latest-items a h2 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-right: 0.5rem;
+}
+
+.latest-items a span {
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    padding: 0.2rem;
+}
+
+.products {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto; 
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.product-card {
+    height: 12rem;
+    width: 8rem;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.product-card:hover {
+    scale: 1.1;
+    border: 1px solid white;
+}
+
+.cover {
+    box-shadow: 0 -3rem 10px rgba(31,31,31,0.9) inset;
+}
+
+.product-card:nth-child(1) {
+    background-image: url("./NewAssets/rtx4090.jpg");
+    background-size: cover;
+    background-position: -7rem 0;
+}
+
+.product-card:nth-child(2) {
+    background-image: url("./NewAssets/rtx4080.jpg");
+    background-size: cover;
+    background-position: -7rem 0;
+}
+
+.product-card:nth-child(3) {
+    background-image: url("./NewAssets/anime_keyboard_1.jpg");
+    background-size: cover;
+    background-position: -4rem 0;
+    font-size: 8px;
+}
+
+.product-card:nth-child(4) {
+    background-image: url("./NewAssets/anime_keyboard_2.jpg");
+    background-size: cover;
+    background-position: -2rem 0;
+}
+
+.product-card:nth-child(5) {
+    background-image: url("./NewAssets/intel_core_9.jpg");
+    background-size: cover;
+    background-position: -7rem 0;
+}
+
+.product-card:nth-child(6) {
+    background-image: url("./NewAssets/intel_core_7.jpg");
+    background-size: cover;
+    background-position: -1rem 0;
+}
+
+.product-card:nth-child(7) {
+    background-image: url("./NewAssets/motherboard.jpg");
+    background-size: cover;
+    background-position: -7.5rem 0;
+}
+
+.product-card:nth-child(8) {
+    background-image: url("./NewAssets/motherboard.jpg");
+    background-size: cover;
+}
+
+
+.product-card:nth-child(9) {
+    background-image: url("./NewAssets/motherboard.jpg");
+    background-position: -2rem 0;
+    background-size: cover;
+}
+
+.product-card:nth-child(10) {
+    background-image: url("./NewAssets/anime_keyboard_2.jpg");
+    background-size: cover;
+}
+
+.product-card:nth-child(11) {
+    background-image: url("./NewAssets/anime_keyboard_1.jpg");
+    background-size: cover;
+}
+
+
+.card-tags {
+    font-size: 6px;
+    padding: 0.3rem 0.5rem;
+    color: white;
+    margin: 3px;
+}
+
+.hot {
+    background-color: var(--orange);
+}
+
+.r18 {
+    background-color: var(--red);
+}
+
+.cute {
+    background-color: var(--pink);
+}
+
+.new {
+    background-color: var(--blue);
+}
+
+.product-card a {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+
+.info {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.rating {
+    padding:  0 0.2rem;
+    font-size: 10px;
+    background-color: white;
+    color: var(--black);
+    margin: 0 5px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    margin: 3px;
+}
+
+.price {
+    padding: 0.1rem 0.2rem;
+    font-size: 10px;
+    background-color: white;
+    color: var(--black);
+    align-self: flex-start;
+    font-weight: 600;
+}
+
+.card-name {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-bottom: 3px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.footer {
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+    margin: 2rem 1rem;
+    font-size: 12px;
+}
+
+.left {
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.left h1, .right h1 {
+   font-size: 14px;
+   letter-spacing: 3px;
+   font-weight: 100;
+   margin: 1rem 0; 
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.right a {
+    margin: 2px 0;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+
+.right a img {
+    margin-right: 2px ;
+}
+
+@media only screen and (min-width: 500px) {
+    .banner {
+        height: 18rem;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .side-menu {
+        gap: 2rem;
+    }
+    .section-header {
+        margin: 2rem;
+    }
+
+    .banner {
+        height: 22rem;
+    }
+
+    .latest-items {
+        height: 18rem;
+        margin: 2rem 1.5rem;
+    }
+
+    .products {
+        padding: 2rem;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .product-card {
+        height: 15rem;
+        width: 11rem;
+    }
+
+    .left {
+        margin-right: 40%;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+}
+    
+@media only screen and (min-width: 900px) {
+    .latest-items {
+        margin: 2rem 4rem;
+    }
+
+    .products {
+        padding: 2rem 4rem;
+    }
+
+    .card-tags {
+        font-size: 10px;
+    }
+
+    .rating {
+        top: 25px;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .header {
+        padding: 2rem 3.5rem;
+    }
+
+    .banner {
+        height: 32rem;
+    }
+
+    .latest-items {
+        height: 26rem;
+    }
+
+    .products {
+        padding: 2rem 6rem;
+    }
+
+    .product-card {
+        margin: 1rem 0;
+    }
+
+    .left {
+        margin-right: 32%;
+    }   
+}
+
+@media only screen and (min-width:1600px) {
+    .banner {
+        height: 48rem;
+    }
+
+    /* .tag {
+        font-size: 2rem;
+        font-weight: 900;
+    } */
+
+    .latest-items {
+        height: 38rem;
+    }
+
+    .products {
+        padding: 2rem;
+        grid-template-columns: auto auto auto auto;
+    }
+}
