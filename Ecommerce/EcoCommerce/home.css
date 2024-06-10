@@ -257,13 +257,15 @@ header {
 }
 
 .product-card:nth-child(10) {
-    background-image: url("./Assets/anime_keyboard_2.jpg");
+    background-image: url("./Assets/blackshark.jpg");
     background-size: cover;
+    background-position: -1rem 0;
 }
 
 .product-card:nth-child(11) {
-    background-image: url("./Assets/anime_keyboard_1.jpg");
+    background-image: url("./Assets/barracuda.jpg");
     background-size: cover;
+    background-position: -1rem 0;
 }
 
 
