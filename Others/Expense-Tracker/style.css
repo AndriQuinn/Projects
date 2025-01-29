@@ -1,0 +1,96 @@
+:root {
+    --dark: #1e1e1e;
+    --white: #b0b0b0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--dark);
+    overflow: hidden;
+    color: var(--white);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav {
+    position: sticky;
+    height: 10vh;
+    border-bottom: 1px solid var(--white);
+    overflow: visible;
+    position: relative;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#menuButton {
+    position: relative;
+    border: none;
+    z-index: 2;
+}
+
+#menuButton::after {
+    content: "";
+    width: 100%;
+    height: 0;
+    z-index: -1;
+    background: var(--white);
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    transition: 0.1s all;
+}
+
+#menuButton:hover::after {
+    height: 100%;
+}
+
+.icons {
+    width: auto;
+    height: 20px;
+    background: transparent;
+}
+
+.slideMenu {
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    transition: all 0.3s;
+    border-left: 1px solid var(--white);
+}
+
+.slideMenu ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 100vh;
+    padding: 5rem 0;
+}
+
+.slideMenu ul li {
+    margin: 1.5rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--white);
+}
+
+.slideMenu a {
+    padding: 0.5rem;
+    text-decoration: none;
+}
+

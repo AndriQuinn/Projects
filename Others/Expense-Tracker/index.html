@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Expense Tracker </title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="Assets/tab_icon.svg"/>
+</head>
+<body>
+    <div class="nav">
+        <div class="navBar">
+            <div class="navIcon icons"> <img src="Assets/nav_icon.svg" /></div>
+            <div class="leftMenu"> 
+                <div class="menuIcon">
+                    <button id="menuButton" onclick="toggleMenu()">
+                        <img id="menuImg" class="icons" src="Assets/menu_button.svg" alt="menu_icon"/>                    </button>
+                    
+                </div>
+                <div class="slideMenu">
+                    <ul>
+                        <li><a href="#daily"> Daily </a></li>
+                        <li><a href="#weekly"> Weekly </a></li>
+                        <li><a href="#monthly"> Monthly </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
