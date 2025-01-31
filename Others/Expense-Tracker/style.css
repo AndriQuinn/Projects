@@ -21,17 +21,21 @@ body {
 
 .nav {
     position: sticky;
-    height: 10vh;
+    height: 10%;
     border-bottom: 1px solid var(--white);
     overflow: visible;
     position: relative;
+    display: flex;
+    align-content: center;
+    margin-bottom: 1rem;
 }
 
 .navBar {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100vw;
 }
 
 #menuButton {
@@ -92,5 +96,43 @@ body {
 .slideMenu a {
     padding: 0.5rem;
     text-decoration: none;
+    background: transparent;
 }
 
+@media only screen and (min-width: 700px) {
+
+    .leftMenu {
+        display: block;
+    }
+
+    .navBar {
+        padding: 0 2rem;
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+    .slideMenu {
+        display: flex;
+        visibility: visible;        
+        width: auto;
+        align-items: center;
+        border: none;
+        height: auto;
+        height: 100%;
+        position: relative;
+    }
+
+    .slideMenu ul {
+        flex-direction: row;
+        height: auto;
+        padding: 0;    
+        border: none;
+    }
+
+    .slideMenu ul li {
+        border: none;
+        margin: 0;
+    }
+}
