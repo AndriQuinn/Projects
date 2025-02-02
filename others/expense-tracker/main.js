@@ -1,5 +1,12 @@
+const dateNow = new Date().toString().split(" ");
+var day = document.getElementById("day");
+var week = document.getElementById("week");
+var month = document.getElementById("month");
+day.textContent = dateNow[2] + " 日";
+week.textContent = (Math.round(parseInt(dateNow[2]) / 7 +0.6)) + " 週";
+month.textContent = parseInt(new Date().getMonth()) + 1 + " 月";
+
 var menuToggled = false;
-const menuImg = document.getElementById("menuImg");
 
 function toggleMenu() {
     menuToggled = !menuToggled
@@ -19,7 +26,3 @@ function toggleMenu() {
     }
 }
 
-var date = new Date();
-var dateString = date.toString().split(" ");
-var day = document.getElementsByClassName("label")[1];
-day.textContent = dateString[2] + " 日";
