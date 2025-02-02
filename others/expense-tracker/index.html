@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Expense Tracker </title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="./assets/icons/tab_icon.svg"/>
+</head>
+<body>
+
+    <div class="nav">
+        <div class="navBar">
+            <div class="navIcon icons"> <img src="assets/icons/nav_icon.svg" /></div>
+            <div class="leftMenu"> 
+                <div class="menuIcon">
+                    <button id="menuButton" onclick="toggleMenu()">
+                        <img id="menuImg" class="icons" src="assets/icons/menu_button.svg" alt="menu_icon"/>                    </button>
+                    
+                </div>
+                <div class="slideMenu">
+                    <ul>
+                        <li><a href="#daily"> Daily </a></li>
+                        <li><a href="#weekly"> Weekly </a></li>
+                        <li><a href="#monthly"> Monthly </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashBoard">
+        <h1 class="secHeader label"> Overview </h1>
+            <div class="allStatus">
+                <div class="status">
+                    <div class="daily property">₱150 </div>
+                    <div class="label">  </div>
+                </div>
+                <div class="status">
+                    <div class="weekly property"> ₱830</div>
+                    <div  class="label"> 1 週 </div>
+                </div>
+                <div class="status">
+                    <div class="monthly property"> ₱3200</div>
+                    <div class="label">  2 月 Monthly </div>
+                </div> 
+            </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
